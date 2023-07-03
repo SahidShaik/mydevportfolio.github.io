@@ -1,0 +1,211 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+nav{
+    display:flex ;
+    justify-content: space-around;
+    align-items: center;
+    height: 54px;
+    background-color: rgb(15, 0, 19);
+}
+.svg{
+    height: 30px;
+    width: 30px;
+    background-color: rgb(255, 255, 255) ;
+    border-radius: 160px;
+}
+.MyImg{
+    margin-top: 5px;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(255, 255, 255) ;
+    border-radius: 160px;
+}
+.myIMG-span{
+   position: relative;
+   margin-top: 50px;
+}
+nav ul{
+    display:flex ;
+    justify-content: center;
+    
+}
+nav ul li{
+    list-style: none;
+    margin: 0 20px; 
+}
+nav ul li a{
+   text-decoration: none;
+   color: rgb(255, 255, 255);
+}
+nav ul li a:hover{
+    color: blue;
+    font-size: 1.05rem;
+ }
+.left{
+    font-size: 1.7rem;
+}
+/* .span{
+    background-color: aliceblue;
+    color: aqua;
+    opacity: 0;
+    display: inline-block;
+    animation: animate 1s linear forwards;
+    -webkit-animation:animate 1s linear forwards ;
+} */
+.firstSection {
+display: flex;
+justify-content: space-around;
+margin: 85px 32px;
+
+}
+.firstSection >div{
+    width: 34%;
+    
+    }
+.leftSection
+{
+    width: 30%;
+   
+    font-size: 3rem;
+    margin: 70px;
+}
+.rightSection{
+    width: 30%;
+}
+.rightSection img{
+    width: 80%;
+}
+/* %%%%%%%%%%%%% */
+.red{
+
+    color: rgb(59, 239, 251);
+}
+/* for list itmes  */
+.listItmes{
+    text-decoration: none;
+}
+#element{
+    color: rgba(202, 149, 251, 0.822);
+    
+}
+/* from chrome */
+/* Zoom Out #2 */
+/* .hover04 figure img {
+	width: 400px;
+	height: 800px;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover04 figure:hover img {
+	width: 300px;
+}
+#SecondSectionDiv{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    background-image: linear-gradient(rgb(130, 130, 230));
+    
+} */
+ hr{
+     margin: 40px 84px;
+    border: 0px; 
+    background-color: rgb(29, 47, 105);
+    height: 1.10px;
+}
+main hr{
+    margin: 16px 0px;
+}
+main{
+    height: 1400px;
+}
+section h1{
+    font-size: 1.70rem;
+    /* padding-left: 11rem     ; */
+}
+/* second section  */
+.SecondSection{
+    margin: auto;
+    max-width: 80vw;
+    height: 80vh;
+}
+.SecondSection h1{
+    color: rgba(202, 149, 251, 0.822);
+}
+
+.gray{
+    /* padding-left: 171px; */
+    color: gray;
+}
+.SecondSection .box
+{
+    width: 70vw;
+    height: 2px;
+    background-color: white;
+    display: flex;
+}
+.SecondSection .box{
+    margin: 26px 68px;
+    
+}
+/* vertical line */
+.SecondSection .vertical{
+    height: 33px;
+    width: 3px;
+   background-color: white;
+   margin: 0 100px;
+}
+.logo{
+    width: 35px;
+    position: relative;
+    top: -47px;
+    left: -17px;
+}
+.vertical-title{
+    width: 90 px;
+
+}
+.vertical-discription{
+    position: relative; 
+    top: 10px;
+    width: 150px;
+}
+.sql{
+    padding-top: 14px;
+}
+.css{
+    padding-top: 9px;
+    width: 26px;
+    height: 26px;
+}
+.SecondSection div ul li{
+    /* list-style: none; */
+    font-size: 12px;
+    color: grey;
+}
+.footer-div{
+    display: flex;
+    padding: 23px 123px;
+    justify-content: space-evenly;
+}
+footer{
+    /* height: 240px; */
+    background-color: rgba(15, 15, 43, 0.872);
+    padding: 12px 0;
+}
+footer ul{
+    list-style: none;
+}
+.footer-div>div{
+    width: 100px;
+}
+footer .div-center{
+    text-align: center;
+    color: gray;
+}
